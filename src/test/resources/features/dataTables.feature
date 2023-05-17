@@ -5,7 +5,7 @@ Feature: DataTable Usage
 
   Scenario: DataTable
 
-    Given Asagidaki tablo bu methodada parametre olarak kullanilacaktir
+    Given Asagidaki tablo bu methodda parametre olarak kullanilacaktir
     |name|surname|number|
     |Karl|Ortis  |123   |
     |Ali |Osman  |012345|

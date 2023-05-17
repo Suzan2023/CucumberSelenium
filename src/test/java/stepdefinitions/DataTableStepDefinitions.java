@@ -6,7 +6,7 @@ import io.cucumber.java.en.Given;
 import java.util.List;
 
 public class DataTableStepDefinitions {
-    @Given("Asagidaki tablo bu methodada parametre olarak kullanilacaktir")
+    @Given("Asagidaki tablo bu methodda parametre olarak kullanilacaktir")
     public void asagidakiTabloBuMethodadaParametreOlarakKullanilacaktir(DataTable table) {
 
 //        |name|surname|number|      ->    { {"name", "surname", "number"},

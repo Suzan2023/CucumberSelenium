@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src\\test\\java\\stepdefinitions\\ScenarioOutlinesStepDefinitions.java"},
-        glue = {"stepdefinitions","hooks"}
+        features = {"src\\test\\resources\\features\\ScenarioOutline.feature"},
+        glue = {"stepdefinitions", "hooks"}
 )
 public class HookRunner {
 }
