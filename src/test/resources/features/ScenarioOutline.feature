@@ -14,5 +14,5 @@ Feature: Scenario Outline Usage
     |sayi1|sayi2|sonuc|
     |5    |3    |8    |
     |2    |4    |6    |
-    |7    |8    |14   |
+    |7    |8    |15   |
     |1    |1    |2    |

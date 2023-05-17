@@ -52,6 +52,7 @@ public class BackgroundStepDefinitions {
 
         GoogleHomePage hp = new GoogleHomePage();
         hp.searchFor("linkedin");
+        hp.clickSearchButton();
 
     }
 
