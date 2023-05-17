@@ -15,7 +15,11 @@ public class BackgroundStepDefinitions {
     public void kullaniciGoogleComSayfasindadir() {
 
         Driver.getDriver().get("https://www.google.com/");
-        Driver.getDriver().findElement(By.xpath("(//div[@class='QS5gu sy4vM'])[2]")).submit();
+        try {
+            Driver.getDriver().findElement(By.id("L2AGLb")).click();
+        } catch (Exception e) {
+
+        }
 
     }
 
@@ -24,6 +28,7 @@ public class BackgroundStepDefinitions {
 
         GoogleHomePage hp = new GoogleHomePage();
         hp.searchFor("amazon");
+        hp.clickSearchButton();
 
     }
 
@@ -55,5 +60,6 @@ public class BackgroundStepDefinitions {
 
         Assert.assertTrue(Driver.getDriver().getTitle().contains("linkedin"));
 
+        Driver.closeDriver();
     }
 }
