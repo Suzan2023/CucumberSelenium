@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/features/firstFeature.feature"},
         glue = {"stepdefinitions"},
-        tags = "@login" //@login yerine @smoke veya @regression veya hangi scenario istenirse o yazilir
+        tags = "@ReportRunner" //@login yerine @smoke veya @regression veya hangi scenario istenirse o yazilir
 )
 public class TagRunner {
 

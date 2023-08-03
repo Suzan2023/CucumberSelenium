@@ -8,11 +8,14 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/features"},
         glue = {"stepdefinitions"},
         plugin = {
-                "html:reports/html/htmlReport.html",
-                "json:reports/jsonReport.json",
-                "junit:reports/xmlReport.xml"
+                "html:reports/html/htmlReport.html", //html formatinca rapor almak icin
+                "json:reports/jsonReport.json",  //json formatinca rapor almak icin
+                "junit:reports/xmlReport.xml",//xml formatinca rapor almak icin
+                "pretty",                    //konsol ciktilarinin daha okunakli olmasi icin
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"  //spark report icin
 
         }
+
 )
 
 public class ReportRunner {

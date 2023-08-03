@@ -1,4 +1,4 @@
-@login
+@ReportRunner
 Feature: First Feature Tests
 
 @smoke

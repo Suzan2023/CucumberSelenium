@@ -11,7 +11,9 @@ import org.junit.runner.RunWith;
         dryRun = false
 )
 public class FirstRunner {
-// 2 islemle bu class i bir junit runner class haline getirebiliriz
+
+
+     // 2 islemle bu class i bir junit runner class haline getirebiliriz
 
     // 1. RunWith anotasyonunu kullanarak bu runner in junit ve cucumber ile calisacagini bildiririz
     // 2. CucumberOptions isimli anotasyonu kullanarak bir takim konfigurasyonlar yapabiliriz
